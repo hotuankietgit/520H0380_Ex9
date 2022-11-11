@@ -1,0 +1,17 @@
+function Score:
+Falied: if input score is smaller than 0
+Passed: if input score is larger than 0 (throws Execption)
+Passed: if input score is larger than 0 and smaller than 10
+
+function getLetterScore:
+Passed: if input score is 8
+Falied: if input score is 7 (expected B but got C)
+Falied: if input score is 5 (expected C but got D)
+Passed: if input score is 3.5
+Passed: if input score is smaller than 3.5
+			 
+function addStudent:
+ Failed - Chỉ thêm khi mã số của sinh viên chưa tồn tại trong danh sách
+ Failed - Nếu tham số nhận vào là null thì ném ra ngoại lệ NullReferenceException
+ Failed- Nếu thêm thành công thì số lượng sinh viên tăng 1 và phương thức trả về true
+ Failed- Nếu thêm không thành công thì phương thức trả về false
